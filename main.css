@@ -4,7 +4,12 @@ body {
   background-size: cover;
 }
 
-.tituloIndice{
+.tituloIndiceH1{
   display: inline-inline-block;
   width: 50%;
+}
+
+.tituloIndiceH2{
+  display: inline-inline-block;
+  width: 75%;
 }
