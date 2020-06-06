@@ -3,3 +3,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.tituloIndice{
+  display: inline-inline-block;
+  width: 50%;
+}
