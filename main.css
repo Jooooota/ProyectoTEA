@@ -13,3 +13,7 @@ body {
   display: inline-inline-block;
   width: 75%;
 }
+
+.dropdown-menu{
+  width: auto;
+}
