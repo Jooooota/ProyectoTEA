@@ -14,10 +14,7 @@ body {
   width: 75%;
 }
 
-.dropdown{
-  width: auto;
-}
-
-.dropdown-menu{
-  width: auto;
+.contenedorFlex{
+  margin-top: 15%;
+  margin-bottom: 15%;
 }
