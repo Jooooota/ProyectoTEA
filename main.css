@@ -25,7 +25,6 @@ body {
 }
 
 .canvasDibujo{
-  border: solid 1em black;
-  width: 50%;
-  height: 50%;
+  border: solid 0.5em black;
+
 }
