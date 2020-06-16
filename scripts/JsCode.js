@@ -7,12 +7,12 @@ function InitThis() {
 
     $('#myCanvas').mousedown(function (e) {
         mousePressed = true;
-        Draw(e.pageX, e.pageY, false);
+        Draw(e.pageX - $(this).offset().left, e.pageY - $(this).offset().top, false);
     });
 
     $('#myCanvas').mousemove(function (e) {
         if (mousePressed) {
-            Draw(e.pageX, e.pageY, true);
+            Draw(e.pageX - $(this).offset().left, e.pageY - $(this).offset().top, true);
         }
     });
 
