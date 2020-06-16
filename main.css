@@ -23,3 +23,9 @@ body {
   margin-left: 10%;
   margin-right: 10%;
 }
+
+.canvasDibujo{
+  border: solid 1em black;
+  width: 50%;
+  height: 50%;
+}
