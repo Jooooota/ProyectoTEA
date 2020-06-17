@@ -27,3 +27,8 @@ body {
 .contenedorJuegos{
   width: 80%;
 }
+
+.iconosFlecha{
+  width: auto;
+  height: auto;
+}
