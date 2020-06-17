@@ -23,8 +23,8 @@
     <div align="center" class="bg-light contenedorJuegos">
      <canvas id="myCanvas" width="900" height="500" style="border:0.03em solid black"></canvas>
      <br /><br />
-     <button onclick="javascript:clearArea();return false;">Borrar dibujo</button>
-     Line width : <select id="selWidth">
+     <button class="btn btn-light" onclick="javascript:clearArea();return false;">Borrar dibujo</button>
+     Line width : <select id="selWidth" class="selectpicker">
          <option value="1">1</option>
          <option value="3">3</option>
          <option value="5">5</option>
@@ -32,7 +32,7 @@
          <option value="9" selected="selected">9</option>
          <option value="11">11</option>
      </select>
-     Color : <select id="selColor">
+     Color : <select id="selColor" class"selectpicker">
          <option value="black">black</option>
          <option value="blue" selected="selected">blue</option>
          <option value="red">red</option>
