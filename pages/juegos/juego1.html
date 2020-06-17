@@ -21,22 +21,21 @@
   <body onload="InitThis();">
     <h1 class="text-center bg-light mx-auto py-1 my-2 tituloIndiceH1">Actividad 1</h1>
     <div align="center" class="bg-light contenedorJuegos">
-     <canvas id="myCanvas" width="900" height="500" style="border:0.03em solid black"></canvas>
-     <br /><br />
+      <canvas id="myCanvas" width="900" height="500" style="border:0.03em solid black"></canvas>
+      <br /><br />
 
-<div class="form-row ">
-  <button class="btn btn-light col" onclick="javascript:clearArea();return false;">Borrar dibujo</button>
-  Color: <select id="selColor" class="form-control col">
-      <option value="black" selected="selected">Negro</option>
-      <option value="blue">Azul</option>
-      <option value="red">Rojo</option>
-      <option value="green">Verde</option>
-      <option value="yellow">Amarillo</option>
-  </select>
-</div>
-
-
- </div>
+      <div class="form-row ">
+        <button class="btn btn-light col" onclick="javascript:clearArea();return false;">Borrar dibujo</button>
+        Color:
+        <select id="selColor" class="form-control col">
+          <option value="black" selected="selected">Negro</option>
+          <option value="blue">Azul</option>
+          <option value="red">Rojo</option>
+          <option value="green">Verde</option>
+          <option value="yellow">Amarillo</option>
+        </select>
+      </div>
+    </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
