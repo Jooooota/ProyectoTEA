@@ -24,7 +24,6 @@ body {
   margin-right: 10%;
 }
 
-.canvasDibujo{
-  border: solid 0.025em black;
-
+.contenedorJuegos{
+  width: 80%; 
 }
