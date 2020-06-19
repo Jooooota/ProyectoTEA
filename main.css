@@ -1,7 +1,14 @@
-body {
+.fondoNormal {
   background-image: url('images/fondo.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.fondoSuave {
+  background-image: url('images/fondoSuave.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  ba
 }
 
 .tituloIndex{
@@ -25,7 +32,8 @@ body {
 }
 
 .sectionInformacion{
-  margin: auto;
+  margin-right: 10%;
+  margin-left: 10%;
   padding: 5%;
 }
 
