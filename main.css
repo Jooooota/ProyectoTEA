@@ -26,6 +26,10 @@
   width: 50%;
 }
 
+.tituloJuegos{
+  width: 25%;
+}
+
 .tituloIndiceH2{
   display: inline-inline-block;
   width: 75%;
