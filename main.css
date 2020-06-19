@@ -1,5 +1,5 @@
 body {
-  background-image: url('images/fondoMain.jpg');
+  background-image: url('images/fondo.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -25,8 +25,8 @@ body {
 }
 
 .sectionInformacion{
-  margin-left: 10%;
-  margin-right: 10%;
+  margin: auto;
+  padding: 5%;
 }
 
 .contenedorJuegos{
