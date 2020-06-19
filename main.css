@@ -43,6 +43,10 @@
   border-radius: .3rem;
 }
 
+.btn-actividad{
+  color: white;
+}
+
 .sectionInformacion{
   margin-right: 10%;
   margin-left: 10%;
