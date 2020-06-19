@@ -1,7 +1,12 @@
 body {
-  background-image: url('images/cubos.jpg');
+  background-image: url('images/fondoMain.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.tituloIndex{
+  margin-top: 10%;
+  font-size: 2em;
 }
 
 .tituloIndiceH1{
