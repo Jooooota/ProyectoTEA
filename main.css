@@ -39,7 +39,6 @@
 
 .fondoDestinoArrastre{
   width: 900px;
-  border: 0.5em solid black;
   height: 425px;
   background-image: url(images/arrastreDestino1_1.jpg);
   background-size: cover;
