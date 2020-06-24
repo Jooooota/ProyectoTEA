@@ -30,11 +30,15 @@
 .arrastreA1_3{
   background-image: url('images/arrastreA1_3.jpg');
   background-size: contain;
+  width: 250px;
+  height: 450px;
 }
 
 ..arrastreB1_3{
   background-image: url('images/arrastreB1_3.jpg');
   background-size: contain;
+  width: 250px;
+  height: 450px;
 }
 
 .fondoDestinoArrastre{
