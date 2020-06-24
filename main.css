@@ -87,6 +87,11 @@
   padding-left: 5%;
 }
 
+.descripcionJuego{
+  width: 65%;
+  margin: auto;
+}
+
 .fas{
   font-size: 75px;
   color: white;
