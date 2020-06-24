@@ -71,7 +71,14 @@
   width: 900px;
 }
 
-.itemDestinoArrastre{
+.itemDestinoArrastreA{
+  background-image: url('images/destinoA4_1.jpg');
+  width: 150px;
+  height: 100px;
+}
+
+.itemDestinoArrastreB{
+  background-image: url('images/destinoB4_1.jpg');
   width: 150px;
   height: 100px;
 }
