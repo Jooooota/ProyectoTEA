@@ -56,6 +56,11 @@
   background-size: contain;
 }
 
+.canvas2_4{
+  background-image: url('images/imagen2_4.jpg');
+  background-size: contain;
+}
+
 .arrastre4_1{
   width: 150px;
   height: 100px;
