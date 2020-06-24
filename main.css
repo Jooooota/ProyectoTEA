@@ -38,7 +38,8 @@
 }
 
 .fondoDestinoArrastre{
-  width: 100%;
+  width: 900px;
+  height: 450px;
   background-image: url('images/arrastreDestino1_1.jpg');
   background-size: contain;
 }
