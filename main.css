@@ -38,6 +38,14 @@
   border: 0.03em solid black;
 }
 
+.imagenJuego2_3{
+  background-image: url('images/imagen2_3.jpg');
+  background-size: cover;
+  width: 900px;
+  height: 500px;
+  border: 0.03em solid black;
+}
+
 .imagenJuego1_2{
   background-image: url('images/filasPuntos.jpg');
   background-size: contain;
