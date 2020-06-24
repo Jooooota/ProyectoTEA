@@ -14,6 +14,10 @@
   background-position: center;
 }
 
+.imagenJuego1_1{
+  background-image: url('images/caraBombilla.jpg');
+}
+
 .tituloIndex{
   margin-top: 10%;
   margin-bottom: 10%;
@@ -52,10 +56,6 @@
   margin-left: 10%;
   padding-right: 5%;
   padding-left: 5%;
-}
-
-.contenedorJuegos{
-  width: 60;
 }
 
 .fas{
