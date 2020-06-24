@@ -31,6 +31,8 @@
   width: 150px;
   height: 100px;
   background-size: 150px 100px;
+  outline: 0.1em solid;
+  margin-bottom: 1%;
 }
 
 .itemArrastre1_3{
