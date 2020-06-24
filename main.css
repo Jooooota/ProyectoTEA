@@ -27,6 +27,11 @@
   background-size: contain;
 }
 
+.fondoDestinoArrastre{
+  background-image: url('images/arrastreDestino1_1.jpg');
+  background-size: contain;
+}
+
 .tituloIndex{
   margin-top: 10%;
   margin-bottom: 10%;
@@ -47,6 +52,10 @@
 .contenedorFlex{
   margin-top: 10%;
   margin-bottom: 10%;
+}
+
+.contenedorArrastre{
+  width: 100%;
 }
 
 .btn-xlarge{
