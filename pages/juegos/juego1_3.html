@@ -29,20 +29,6 @@
       var data = ev.dataTransfer.getData("text");
       ev.target.appendChild(document.getElementById(data));
     }
-
-    function allowDrop2(ev) {
-      ev.preventDefault();
-    }
-
-    function drag2(ev) {
-      ev.dataTransfer.setData("text", ev.target.id);
-    }
-
-    function drop2(ev) {
-      ev.preventDefault();
-      var data = ev.dataTransfer.getData("text");
-      ev.target.appendChild(document.getElementById(data));
-    }
     </script>
 
     <title>Actividad 1</title>
@@ -64,14 +50,14 @@
         <div class="arrastre1_3" id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
           <img src="../../images/arrastreA1_3.jpg" class="itemArrastre1_3" alt="conejo" draggable="true" ondragstart="drag(event)" id="drag1">
         </div>
-        <div class="arrastre1_3" id="div3" ondrop="drop2(event)" ondragover="allowDrop2(event)">
-          <img src="../../images/arrastreB1_3.jpg" class="itemArrastre1_3" alt="tortuga" draggable="true" ondragstart="drag2(event)" id="drag2">
+        <div class="arrastre1_3" id="div3" ondrop="drop(event)" ondragover="allowDrop(event)">
+          <img src="../../images/arrastreB1_3.jpg" class="itemArrastre1_3" alt="tortuga" draggable="true" ondragstart="drag(event)" id="drag2">
         </div>
 
         </div>
         <div class="d-flex flex-row justify-content-around align-items-center fondoDestinoArrastre">
           <div class="itemDestinoArrastreA" id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-          <div class="itemDestinoArrastreB" id="div4" ondrop="drop2(event)" ondragover="allowDrop2(event)"></div>
+          <div class="itemDestinoArrastreB" id="div4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
         </div>
       </div>
       <a type="button" class="btn btn-default btn-lg align-middle" href="juego1_1">
