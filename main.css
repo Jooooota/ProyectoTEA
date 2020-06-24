@@ -24,7 +24,7 @@
 
 .imagenJuego1_2{
   background-image: url('images/filasPuntos.jpg');
-  background-size: cover;
+  background-size: contain;
 }
 
 .tituloIndex{
