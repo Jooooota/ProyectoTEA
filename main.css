@@ -16,6 +16,7 @@
 
 .imagenJuego1_1{
   background-image: url('images/caraBombilla.jpg');
+  background-size: cover;
   width: 900px;
   height: 500px;
   border: 0.03em solid black;
