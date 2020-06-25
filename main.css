@@ -30,22 +30,6 @@
   border: 0.03em solid black;
 }
 
-.imagenJuego2_1{
-  background-image: url('images/imagen2_1.jpg');
-  background-size: cover;
-  width: 900px;
-  height: 500px;
-  border: 0.03em solid black;
-}
-
-.imagenJuego2_3{
-  background-image: url('images/imagen2_3.jpg');
-  background-size: cover;
-  width: 900px;
-  height: 500px;
-  border: 0.03em solid black;
-}
-
 /*---------------*/
 /*--- DIBUJAR ---*/
 /*---------------*/
@@ -81,16 +65,6 @@
 
 .imagenJuego3_3{
   background-image: url('images/imagen3_3.jpg');
-  background-size: contain;
-}
-
-.canvas2_2{
-  background-image: url('images/imagen2_2.jpg');
-  background-size: contain;
-}
-
-.canvas2_4{
-  background-image: url('images/imagen2_4.jpg');
   background-size: contain;
 }
 /*-------------------*/
@@ -152,7 +126,6 @@
   height: 100px;
   background-size: 150px 100px;
 }
-
 /*--------------------*/
 /*--- FIN ARRASTRE ---*/
 /*--------------------*/
@@ -197,10 +170,55 @@
   padding-left: 5%;
 }
 
+/*---------------*/
+/*---- A y B ----*/
+/*---------------*/
 .descripcionJuego{
   width: 65%;
   margin: auto;
 }
+
+.imagenJuego2_1{
+  background-image: url('images/imagen2_1.jpg');
+  background-size: cover;
+  width: 900px;
+  height: 500px;
+  border: 0.03em solid black;
+}
+
+.imagenJuego2_3{
+  background-image: url('images/imagen2_3.jpg');
+  background-size: cover;
+  width: 900px;
+  height: 500px;
+  border: 0.03em solid black;
+}
+
+.imagenJuego6_1{
+  background-image: url('images/imagen6_1.jpg');
+  background-size: cover;
+  width: 900px;
+  height: 500px;
+  border: 0.03em solid black;
+}
+
+.canvas2_2{
+  background-image: url('images/imagen2_2.jpg');
+  background-size: contain;
+}
+
+.canvas2_4{
+  background-image: url('images/imagen2_4.jpg');
+  background-size: contain;
+}
+
+.canvas6_2{
+  background-image: url('images/imagen6_2.jpg');
+  background-size: contain;
+}
+/*-------------------*/
+/*---- FIN A y B ----*/
+/*-------------------*/
 
 .fas{
   font-size: 75px;
