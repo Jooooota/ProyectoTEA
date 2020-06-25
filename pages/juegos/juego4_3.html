@@ -15,32 +15,52 @@
 
     <link rel="stylesheet" href="../../node_modules/@fortawesome/fontawesome-free/css/all.css">
 
-    <title>Actividad 1</title>
+    <script>
+    function allowDrop(ev) {
+      ev.preventDefault();
+    }
+
+    function drag(ev) {
+      ev.dataTransfer.setData("text", ev.target.id);
+    }
+
+    function drop(ev) {
+      ev.preventDefault();
+      var data = ev.dataTransfer.getData("text");
+      ev.target.appendChild(document.getElementById(data));
+    }
+    </script>
+
+    <title>Actividad 3</title>
   </head>
-  <body class="fondoNormal" onload="InitThis();">
-    <h1 class="text-center mx-auto py-1 my-5 text-white">Juego 1</h1>
+  <body class="fondoNormal">
+    <h1 class="text-center mx-auto py-1 mt-3 mb-3 text-white">Juego 3</h1>
+    <h5 class="text-white text-center mb-5 descripcionJuego">
+      Dirigir la mirada del niño hacia la figura y señalar con el dedo los animales que están dentro de la casa.
+      Posteriormente, arrastrar las fotografías de los animales dentro de la casa. Finalmente relata el hecho de pertenencia
+      "la cebra, la serpiente y el mono están dentro de la casa".
+    </h5>
     <div class="d-flex flex-row justify-content-around align-items-center">
-      <a type="button" class="btn btn-default btn-lg">
+      <a type="button" class="btn btn-default btn-lg" href="juego4_2">
         <span class="fas fa-arrow-circle-left align-middle"></span>
       </a>
 
-      <div align="center" class="contenedorJuegos">
-        <canvas id="myCanvas" class="bg-light" width="900" height="500" style="border:0.03em solid black"></canvas>
-        <br /><br />
+      <div align="center">
+        <div class="d-flex flex-row justify-content-around contenedorArrastre">
+        <div class="divOrigenArrastre" id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+          <img src="../../images/arrastreA4_3.jpg" class="itemArrastre" alt="gato" draggable="true" ondragstart="drag(event)" id="drag1">
+        </div>
+        <div class="divOrigenArrastre" id="div3" ondrop="drop(event)" ondragover="allowDrop(event)">
+          <img src="../../images/arrastreB4_3.jpg" class="itemArrastre" alt="perro" draggable="true" ondragstart="drag(event)" id="drag2">
+        </div>
 
-        <div class="form-row ">
-          <button class="btn btn-light col text-center" onclick="javascript:clearArea();return false;">Borrar dibujo</button>
-          <select id="selColor" class="form-control col text-center">
-            <option value="Colores" selected="selected">Colores</option>
-            <option value="black">Negro</option>
-            <option value="blue">Azul</option>
-            <option value="red">Rojo</option>
-            <option value="green">Verde</option>
-            <option value="yellow">Amarillo</option>
-          </select>
+        </div>
+        <div class="d-flex flex-row justify-content-around align-items-center fondoDestinoArrastre">
+          <div class="itemDestinoArrastreA4_2" id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+          <div class="itemDestinoArrastreB4_2" id="div4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
         </div>
       </div>
-      <a type="button" class="btn btn-default btn-lg  align-middle">
+      <a type="button" class="btn btn-default btn-lg align-middle" href="juego4_1">
         <span class="fas fa-arrow-circle-right"></span>
       </a>
 

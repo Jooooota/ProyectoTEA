@@ -126,6 +126,20 @@
   height: 100px;
   background-size: 150px 100px;
 }
+
+.itemDestinoArrastreA4_2{
+  background-image: url('images/destinoA4_3.jpg');
+  width: 150px;
+  height: 100px;
+  background-size: 150px 100px;
+}
+
+.itemDestinoArrastreB4_2{
+  background-image: url('images/destinoB4_3.jpg');
+  width: 150px;
+  height: 100px;
+  background-size: 150px 100px;
+}
 /*--------------------*/
 /*--- FIN ARRASTRE ---*/
 /*--------------------*/
