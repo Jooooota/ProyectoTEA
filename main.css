@@ -216,6 +216,14 @@
   border: 0.03em solid black;
 }
 
+.imagenJuego6_3{
+  background-image: url('images/imagen6_3.jpg');
+  background-size: cover;
+  width: 900px;
+  height: 500px;
+  border: 0.03em solid black;
+}
+
 .canvas2_2{
   background-image: url('images/imagen2_2.jpg');
   background-size: contain;
@@ -226,9 +234,12 @@
   background-size: contain;
 }
 
-.canvas6_2{
+.imagenJuego6_2{
   background-image: url('images/imagen6_2.jpg');
-  background-size: contain;
+  background-size: cover;
+  width: 900px;
+  height: 500px;
+  border: 0.03em solid black;
 }
 /*-------------------*/
 /*---- FIN A y B ----*/
