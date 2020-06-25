@@ -90,6 +90,14 @@
   height: 500px;
 }
 
+.fondoDestinoArrastre8_2{
+  width: 900px;
+  height: 425px;
+  background-image: url(images/imagen8_2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .divOrigenArrastre{
   width: 150px;
   height: 100px;
