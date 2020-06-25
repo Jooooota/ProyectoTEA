@@ -76,17 +76,11 @@
   background-size: contain;
 }
 
-.arrastre4_1{
-  width: 150px;
-  height: 100px;
-  background-size: 150px 100px;
-  outline: 0.1em solid;
-  margin-bottom: 1%;
-}
-
-.itemArrastre4_1{
-  width: 150px;
-  height: 100px;
+/*----------------*/
+/*--- ARRASTRE ---*/
+/*----------------*/
+.contenedorArrastre{
+  width: 900px;
 }
 
 .fondoDestinoArrastre{
@@ -96,6 +90,51 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+.divOrigenArrastre{
+  width: 150px;
+  height: 100px;
+  background-size: 150px 100px;
+  outline: 0.1em solid;
+  margin-bottom: 1%;
+}
+
+.itemArrastre{
+  width: 150px;
+  height: 100px;
+}
+
+.itemDestinoArrastreA4_1{
+  background-image: url('images/destinoA4_1.jpg');
+  width: 150px;
+  height: 100px;
+  background-size: 150px 100px;
+}
+
+.itemDestinoArrastreB4_1{
+  background-image: url('images/destinoB4_1.jpg');
+  width: 150px;
+  height: 100px;
+  background-size: 150px 100px;
+}
+
+.itemDestinoArrastreA4_2{
+  background-image: url('images/destinoA4_2.jpg');
+  width: 150px;
+  height: 100px;
+  background-size: 150px 100px;
+}
+
+.itemDestinoArrastreB4_2{
+  background-image: url('images/destinoB4_2.jpg');
+  width: 150px;
+  height: 100px;
+  background-size: 150px 100px;
+}
+
+/*--------------------*/
+/*--- FIN ARRASTRE ---*/
+/*--------------------*/
 
 .tituloIndex{
   margin-top: 10%;
@@ -117,24 +156,6 @@
 .contenedorFlex{
   margin-top: 10%;
   margin-bottom: 10%;
-}
-
-.contenedorArrastre{
-  width: 900px;
-}
-
-.itemDestinoArrastreA{
-  background-image: url('images/destinoA4_1.jpg');
-  width: 150px;
-  height: 100px;
-  background-size: 150px 100px;
-}
-
-.itemDestinoArrastreB{
-  background-image: url('images/destinoB4_1.jpg');
-  width: 150px;
-  height: 100px;
-  background-size: 150px 100px;
 }
 
 .btn-xlarge{
