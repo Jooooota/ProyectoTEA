@@ -92,7 +92,7 @@
 
 .fondoDestinoArrastre8_2{
   width: 900px;
-  height: 425px;
+  height: 500px;
   background-image: url(images/imagen8_2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -178,6 +178,27 @@
   width: 50%;
   height: 100%;
   background-size: 450px 500px;
+}
+
+.itemDestinoArrastreA8_2{
+  background-image: url('images/destinoA4_1.jpg');
+  width: 150px;
+  height: 100px;
+  background-size: 150px 100px;
+}
+
+.itemDestinoArrastreB8_2{
+  background-image: url('images/destinoB4_1.jpg');
+  width: 150px;
+  height: 100px;
+  background-size: 150px 100px;
+}
+
+.itemDestinoArrastreC8_2{
+  background-image: url('images/destinoB4_1.jpg');
+  width: 150px;
+  height: 100px;
+  background-size: 150px 100px;
 }
 
 /*--------------------*/
