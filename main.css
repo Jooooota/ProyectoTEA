@@ -46,8 +46,16 @@
   border: 0.03em solid black;
 }
 
+/*---------------*/
+/*--- DIBUJAR ---*/
+/*---------------*/
 .imagenJuego1_2{
   background-image: url('images/filasPuntos.jpg');
+  background-size: contain;
+}
+
+.imagenJuego5_1{
+  background-image: url('images/imagenJuego5_1.jpg');
   background-size: contain;
 }
 
@@ -75,6 +83,9 @@
   background-image: url('images/imagen2_4.jpg');
   background-size: contain;
 }
+/*-------------------*/
+/*--- FIN DIBUJAR ---*/
+/*-------------------*/
 
 /*----------------*/
 /*--- ARRASTRE ---*/
