@@ -102,9 +102,22 @@
   margin-bottom: 1%;
 }
 
+.divOrigenArrastre7_2{
+  width: 450px;
+  height: 500px;
+  background-size: 450px 500px;
+  outline: 0.1em solid;
+  margin-bottom: 1%;
+}
+
 .itemArrastre{
   width: 150px;
   height: 100px;
+}
+
+.itemArrastre7_2{
+  width: 450px;
+  height: 500px;
 }
 
 .itemDestinoArrastreA4_1{
@@ -151,7 +164,7 @@
 
 .itemDestinoArrastreA7_2{
   background-image: url('images/imagen7_1rec1op.jpg');
-  width: 50%;
+  width: 450px;
   height: 100%;
   background-size: 450px 500px;
 }
