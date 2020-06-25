@@ -181,24 +181,24 @@
 }
 
 .itemDestinoArrastreA8_2{
-  background-image: url('images/destinoA4_1.jpg');
-  width: 150px;
-  height: 100px;
-  background-size: 150px 100px;
+  background-image: url('images/imagenA8_2op.jpg');
+  width: 200px;
+  height: 200px;
+  background-size: 200px 200px;
 }
 
 .itemDestinoArrastreB8_2{
-  background-image: url('images/destinoB4_1.jpg');
-  width: 150px;
-  height: 100px;
-  background-size: 150px 100px;
+  background-image: url('images/imagenB8_2op.jpg');
+  width: 200px;
+  height: 200px;
+  background-size: 200px 200px;
 }
 
 .itemDestinoArrastreC8_2{
-  background-image: url('images/destinoB4_1.jpg');
-  width: 150px;
-  height: 100px;
-  background-size: 150px 100px;
+  background-image: url('images/imagenC8_2op.jpg');
+  width: 200px;
+  height: 200px;
+  background-size: 200px 200px;
 }
 
 /*--------------------*/
