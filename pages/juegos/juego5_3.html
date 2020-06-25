@@ -15,36 +15,41 @@
 
     <link rel="stylesheet" href="../../node_modules/@fortawesome/fontawesome-free/css/all.css">
 
-    <title>Actividad 1</title>
+    <title>Actividad 3</title>
   </head>
   <body class="fondoNormal" onload="InitThis();">
-    <h1 class="text-center mx-auto py-1 my-5 text-white">Juego 1</h1>
+    <h1 class="text-center mx-auto py-1 mt-4 mb-4 text-white">Juego 3</h1>
+    <h5 class="text-white text-center mb-5 descripcionJuego">
+      Señalar con el dedo la figura superior dirigiendo la mirada del niño hacia ella.
+      El profesor debe describir el animal del que se trata.
+      Posteriormente, el niño debe decir el nombre del animal mientras lo señala y rodearlo en la figura inferior.
+    </h5>
     <div class="d-flex flex-row justify-content-around align-items-center">
-      <a type="button" class="btn btn-default btn-lg">
-        <span class="fas fa-arrow-circle-left align-middle"></span>
-      </a>
+    <a type="button" class="btn btn-default btn-lg" href="juego5_2">
+      <span class="fas fa-arrow-circle-left align-middle"></span>
+    </a>
 
-      <div align="center" class="contenedorJuegos">
-        <canvas id="myCanvas" class="bg-light" width="900" height="500" style="border:0.03em solid black"></canvas>
-        <br /><br />
+    <div align="center">
+      <canvas id="myCanvas" class="imagenJuego5_3" width="900" height="500" style="border:0.03em solid black"></canvas>
+      <br /><br />
 
-        <div class="form-row ">
-          <button class="btn btn-light col text-center" onclick="javascript:clearArea();return false;">Borrar dibujo</button>
-          <select id="selColor" class="form-control col text-center">
-            <option value="Colores" selected="selected">Colores</option>
-            <option value="black">Negro</option>
-            <option value="blue">Azul</option>
-            <option value="red">Rojo</option>
-            <option value="green">Verde</option>
-            <option value="yellow">Amarillo</option>
-          </select>
-        </div>
+      <div class="form-row ">
+        <button class="btn btn-light col text-center" onclick="javascript:clearArea();return false;">Borrar dibujo</button>
+        <select id="selColor" class="form-control col text-center">
+          <option value="Colores" selected="selected">Colores</option>
+          <option value="black">Negro</option>
+          <option value="blue">Azul</option>
+          <option value="red">Rojo</option>
+          <option value="green">Verde</option>
+          <option value="yellow">Amarillo</option>
+        </select>
       </div>
-      <a type="button" class="btn btn-default btn-lg  align-middle">
-        <span class="fas fa-arrow-circle-right"></span>
-      </a>
-
     </div>
+    <a type="button" class="btn btn-default btn-lg align-middle" href="juego5_1">
+      <span class="fas fa-arrow-circle-right"></span>
+    </a>
+
+  </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

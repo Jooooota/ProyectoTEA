@@ -59,6 +59,16 @@
   background-size: contain;
 }
 
+.imagenJuego5_2{
+  background-image: url('images/imagenJuego5_2.jpg');
+  background-size: contain;
+}
+
+.imagenJuego5_3{
+  background-image: url('images/imagenJuego5_3.jpg');
+  background-size: contain;
+}
+
 .imagenJuego3_1{
   background-image: url('images/imagen3_1.jpg');
   background-size: contain;
