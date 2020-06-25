@@ -8,8 +8,6 @@
     <link href="../../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
 
-    <script type="text/javascript" src="../../scripts/JsCode.js"></script>
-
     <!-- Main CSS -->
     <link rel="stylesheet" type="text/css" href="../../main.css">
 
@@ -17,38 +15,28 @@
 
     <title>Actividad 2B</title>
   </head>
-  <body class="fondoNormal" onload="InitThis();">
-    <h1 class="text-center mx-auto py-1 mt-3 mb-3 text-white">Juego 2B</h1>
-    <h5 class="text-white text-center mb-3 descripcionJuego">
+  <body class="fondoNormal">
+    <div class="d-flex flex-row">
+      <a type="button" class="btn btn-info btn-xlarge" href="../../index.html">Inicio</a>
+      <h1 class="text-center mx-auto py-1 mt-4 mb-4 text-white">Juego 2B</h1>
+    </div>
+    <h5 class="text-white text-center mb-5 descripcionJuego">
       Observar las siguientes figuras detenidamente.
       En la figura inferior señalar la acción que realiza la niña y realizar la pregunta ¿qué hace la niña? (jugar).
     </h5>
     <div class="d-flex flex-row justify-content-around align-items-center">
-    <a type="button" class="btn btn-default btn-lg" href="juego6_3">
-      <span class="fas fa-arrow-circle-left align-middle"></span>
-    </a>
+      <a type="button" class="btn btn-default btn-lg" href="juego6_3">
+        <span class="fas fa-arrow-circle-left align-middle"></span>
+      </a>
 
-    <div align="center">
-      <canvas id="myCanvas" class="canvas6_2" width="900" height="500" style="border:0.03em solid black"></canvas>
-      <br /><br />
+      <div align="center" class="imagenJuego6_4">
 
-      <div class="form-row ">
-        <button class="btn btn-light col text-center" onclick="javascript:clearArea();return false;">Borrar dibujo</button>
-        <select id="selColor" class="form-control col text-center">
-          <option value="Colores" selected="selected">Colores</option>
-          <option value="black">Negro</option>
-          <option value="blue">Azul</option>
-          <option value="red">Rojo</option>
-          <option value="green">Verde</option>
-          <option value="yellow">Amarillo</option>
-        </select>
       </div>
-    </div>
-    <a type="button" class="btn btn-default btn-lg align-middle" href="juego6_1">
-      <span class="fas fa-arrow-circle-right"></span>
-    </a>
+      <a type="button" class="btn btn-default btn-lg align-middle" href="juego6_1">
+        <span class="fas fa-arrow-circle-right"></span>
+      </a>
 
-  </div>
+    </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
