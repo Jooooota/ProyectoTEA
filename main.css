@@ -114,6 +114,14 @@
   margin-bottom: 1%;
 }
 
+.divOrigenArrastre8_2{
+  width: 200px;
+  height: 200px;
+  background-size: 200px 200px;
+  outline: 0.1em solid;
+  margin-bottom: 1%;
+}
+
 .itemArrastre{
   width: 150px;
   height: 100px;
